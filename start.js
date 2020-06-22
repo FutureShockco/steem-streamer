@@ -20,7 +20,7 @@ redis.setAsync('block_height', customBlockNum).then(() => {
 let lastBlockNum = 0;
 const stream = setInterval(() => {
   client.database.getDynamicGlobalProperties().then(props => {
-    // Activate this if you want the last irrversible block
+    // Uncomment this if you want the last irrversible block and comment the next line
     // lastBlockNum = parseInt(props.last_irreversible_block_num);
     lastBlockNum = parseInt(props.head_block_number);
   });
