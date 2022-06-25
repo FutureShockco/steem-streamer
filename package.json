@@ -16,7 +16,7 @@
     "event-stream": "3.3.4",
     "express": "^4.16.4",
     "mysql": "^2.16.0",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.7",
     "redis": "^2.8.0"
   },
   "devDependencies": {
